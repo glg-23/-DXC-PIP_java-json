@@ -3,6 +3,9 @@ package jsonParsing.json;
 import org.json.JSONObject;
 import org.json.JSONArray;
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -34,6 +37,12 @@ public class Main {
         elencoRicette.put("elenco ricette", ricetta);
 
         System.out.println(elencoRicette.toString(2));
+
+        try (FileWriter file = new FileWriter("elencoRicette.json")) {
+            elencoRicette.write(file, 4, 0);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 }
