@@ -1,2 +1,10 @@
-# -DXC-PIP_java-json
-DXC Technology - Performance improvement plan (06/2022-11/2022)
+DXC Technology - Performance Improvement Plan 2022
+
+Applicazione realizzata in java per la creazione e lettura di un JSON.
+
+L'utente può creare e leggere un JSON.
+
+
+DXC Technology
+
+https://dxc.com/
