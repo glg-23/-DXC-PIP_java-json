@@ -43,7 +43,7 @@ public class Main {
 
         System.out.println(elencoRicette);
 
-        try (FileWriter file = new FileWriter("elencoRicette.json")) {
+        try (FileWriter file = new FileWriter("elencoRicetteJsonSimple.json")) {
             elencoRicette.writeJSONString(file);
         } catch (IOException e) {
             e.printStackTrace();
