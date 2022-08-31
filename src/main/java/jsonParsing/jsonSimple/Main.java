@@ -18,8 +18,8 @@ public class Main {
 
         JSONArray ricetta = new JSONArray();
 
-        Ricetta ricetta1 = new Ricetta(1, "primi", "pasta", "pasta, pomodoro", "yellow");
-        Ricetta ricetta2 = new Ricetta(2, "secondi", "carne", "carne, sale, olio", "orange");
+        RicettaJsonSimple ricetta1 = new RicettaJsonSimple(1, "primi", "pasta", "pasta, pomodoro", "yellow");
+        RicettaJsonSimple ricetta2 = new RicettaJsonSimple(2, "secondi", "carne", "carne, sale, olio", "orange");
 
         /*
             JSONObject ricetta1 = new JSONObject();
