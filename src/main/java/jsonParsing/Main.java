@@ -17,25 +17,29 @@ public class Main {
         JSONObject elencoRicette = new JSONObject();
 
         JSONArray ricetta = new JSONArray();
-        JSONObject ricetta1 = new JSONObject();
-        JSONObject ricetta2 = new JSONObject();
 
+        Ricetta ricetta1 = new Ricetta(1, "primi", "pasta", "pasta, pomodoro", "yellow");
+        Ricetta ricetta2 = new Ricetta(2, "secondi", "carne", "carne, sale, olio", "orange");
 
-        ricetta1.put("categoria", "primi");
-        ricetta1.put("nome", "pasta");
-        ricetta1.put("ingredienti", "pasta, pomodoro");
-        ricetta1.put("colore", "yellow");
+        /*
+            JSONObject ricetta1 = new JSONObject();
+            JSONObject ricetta2 = new JSONObject();
 
-        ricetta2.put("categoria", "secondi");
-        ricetta2.put("nome", "carne");
-        ricetta2.put("ingredienti", "carne, sale, olio");
-        ricetta2.put("colore", "orange");
+            ricetta1.put("categoria", "primi");
+            ricetta1.put("nome", "pasta");
+            ricetta1.put("ingredienti", "pasta, pomodoro");
+            ricetta1.put("colore", "yellow");
+
+            ricetta2.put("categoria", "secondi");
+            ricetta2.put("nome", "carne");
+            ricetta2.put("ingredienti", "carne, sale, olio");
+            ricetta2.put("colore", "orange");
+        */
 
         ricetta.add(ricetta1);
         ricetta.add(ricetta2);
 
         elencoRicette.put("elenco ricette", ricetta);
-
 
         System.out.println(elencoRicette);
 
