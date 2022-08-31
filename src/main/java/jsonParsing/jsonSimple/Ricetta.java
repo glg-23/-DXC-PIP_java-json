@@ -1,4 +1,4 @@
-package jsonParsing;
+package jsonParsing.jsonSimple;
 
 import org.json.simple.JSONStreamAware;
 import org.json.simple.JSONValue;

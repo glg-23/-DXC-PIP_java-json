@@ -1,4 +1,4 @@
-package jsonParsing;
+package jsonParsing.jsonSimple;
 
 import org.json.simple.JSONObject;
 import org.json.simple.JSONArray;
