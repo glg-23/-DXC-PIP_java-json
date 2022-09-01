@@ -12,15 +12,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("DXC-PIP progetto per creazione e lettura di un JSON");
+        System.out.println("DXC-PIP progetto per creazione e lettura di un file JSON con org.json.simple");
 
         JSONObject elencoRicette = new JSONObject();
-
         JSONArray ricetta = new JSONArray();
 
-        RicettaJsonSimple ricetta1 = new RicettaJsonSimple(1, "primi", "pasta", "pasta, pomodoro", "yellow");
-        RicettaJsonSimple ricetta2 = new RicettaJsonSimple(2, "secondi", "carne", "carne, sale, olio", "orange");
 
+        //versione 1 (creare json direttamente nel main)
         /*
             JSONObject ricetta1 = new JSONObject();
             JSONObject ricetta2 = new JSONObject();
@@ -36,9 +34,16 @@ public class Main {
             ricetta2.put("colore", "orange");
         */
 
+
+        //versione 2 (creare json da RicettaJsonSimple)
+        RicettaJsonSimple ricetta1 = new RicettaJsonSimple(1, "primi", "pasta", "pasta, pomodoro", "yellow");
+        RicettaJsonSimple ricetta2 = new RicettaJsonSimple(2, "secondi", "carne", "carne, sale, olio", "orange");
+
         ricetta.add(ricetta1);
         ricetta.add(ricetta2);
 
+
+        //ok per tutte le versioni
         elencoRicette.put("elenco ricette", ricetta);
 
         System.out.println(elencoRicette);
@@ -50,5 +55,4 @@ public class Main {
         }
 
     }
-
 }

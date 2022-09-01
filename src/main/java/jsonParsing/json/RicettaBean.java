@@ -1,5 +1,7 @@
 package jsonParsing.json;
 
+//utilizzato solo per versione 2
+
 public class RicettaBean {
 
     private int id;

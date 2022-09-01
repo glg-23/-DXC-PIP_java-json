@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         System.out.println();
-        System.out.println("DXC-PIP progetto per creazione e lettura di un file JSON");
+        System.out.println("DXC-PIP progetto per creazione e lettura di un file JSON con org.json");
 
 
         //versione 1 (creare json direttamente nel main)

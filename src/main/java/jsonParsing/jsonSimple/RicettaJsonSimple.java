@@ -9,6 +9,8 @@ import java.io.Writer;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+//utilizzato solo per versione 2
+
 public class RicettaJsonSimple implements JSONStreamAware {
 
     private int numElemento;
@@ -24,18 +26,6 @@ public class RicettaJsonSimple implements JSONStreamAware {
         this.ingredienti = ingredienti;
         this.colore = colore;
     }
-
-    /*
-        @Override
-        public String toJSONString() {
-            return String.format("{\"numElemento\":%d," +
-                            "\"categoria\":\"%s\"," +
-                            "\"nome\":\"%s\"," +
-                            "\"ingredienti\":\"%s\"," +
-                            "\"colore\":\"%s\"}",
-                    numElemento, categoria, nome, ingredienti, colore);
-        }
-    */
 
     @Override
     public void writeJSONString(Writer writer) throws IOException{
