@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.json.CDL;
-
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
@@ -95,10 +94,9 @@ public class Main {
         headerRicette.put("colore");
 
         String ricetteCSV = new String(Files.readAllBytes(Paths.get("ricetteCSV.csv")));
-        System.out.println(ricetteCSV);
-        System.out.println();
+        String ricetteCSVNuovo= ricetteCSV.replace("\r\n","\n");
 
-        JSONArray elencoRicette = CDL.toJSONArray(headerRicette, ricetteCSV);
+        JSONArray elencoRicette = CDL.toJSONArray(headerRicette, ricetteCSVNuovo);
 
         System.out.println(elencoRicette.toString(2));
 
