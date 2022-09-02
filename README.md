@@ -8,12 +8,10 @@ L'utente può creare e leggere dei JSON manualmente o a partire da un file .csv.
 
 -----
 
-DXC Technology
-
+DXC Technology  
 https://dxc.com/
 
-Skillsoft Percipio
-
+Skillsoft Percipio  
 https://www.skillsoft.com/
 
 -----
