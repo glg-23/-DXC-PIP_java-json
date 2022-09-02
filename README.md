@@ -15,3 +15,5 @@ https://dxc.com/
 -----
 
 ![Gianluigi D'Antimi Badge Skillsoft Java](https://github.com/glg-23/DXC-PIP_java-json/blob/main/Gianluigi%20D'Antimi%20Badge%20Skillsoft%20Java.jpg)
+
+<img src="https://github.com/glg-23/DXC-PIP_java-json/blob/main/Gianluigi%20D'Antimi%20Badge%20Skillsoft%20Java.jpg" width="400px"/>
