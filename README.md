@@ -14,6 +14,9 @@ https://dxc.com/
 Skillsoft Percipio  
 https://www.skillsoft.com/
 
+Skillsoft credentials wallet:  
+https://skillsoft.digitalbadges.skillsoft.com/profile/gianluigidantimi963248/wallet#gs.b1mog6
+
 -----
 
-![Gianluigi D'Antimi Badge Skillsoft Java](https://github.com/glg-23/DXC-PIP_java-json/blob/main/Gianluigi%20D'Antimi%20Badge%20Skillsoft%20Java.jpg)
+<img src="https://github.com/glg-23/DXC-PIP_java-json/blob/main/documenti/Skillsoft%20Java%20Novice%20-%20Gianluigi%20D'Antimi.jpg" height="300px"/> <img src="https://github.com/glg-23/DXC-PIP_java-json/blob/main/documenti/Skillsoft%20Java%20Novice%20courses%20badge%20-%20Gianluigi%20D'Antimi.jpg" height="300px"/> <img src="https://github.com/glg-23/DXC-PIP_java-json/blob/main/documenti/Gianluigi%20D'Antimi%20Badge%20Skillsoft%20Java.jpg" height="300px"/>
